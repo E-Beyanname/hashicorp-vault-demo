@@ -16,12 +16,12 @@ Daha sonra
 ```
 set VAULT_ADDR=http://127.0.0.1:8200
 ```
-ile Vault için bir port ayarlamsı yapıyoruz.
+ile Vault için bir port ayarlaması yapıyoruz.
 
 Son olarak 
 
 ```
-vault kv put secret/mebas_core_api spring.datasource.database=mebas_application_db spring.datasource.password=password spring.datasource.username=root app.config.auth.token=5bd8b84a-7b9a-11ed-a1eb-0242ac120002 app.config.auth.username=mebas
+vault kv put secret/core_api spring.datasource.database=mebas_application_db spring.datasource.password=password spring.datasource.username=root app.config.auth.token=5bd8b84a-7b9a-11ed-a1eb-0242ac120002 app.config.auth.username=mebas
 ```
 şeklinde saklanmasını istedğimiz verileri kaydedelim. Burada eklenen verinin yapısını inceledikten sonra komutu düzenleyerek istenilen veriler eklenebilir.
 
